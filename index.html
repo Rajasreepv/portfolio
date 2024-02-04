@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>rajasree'sportfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="submit.js"></script>
+    <style>
+   
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #aboutme {
+            font-size: 30px;
+            width: 53%;float: left;
+          
+            /* float: left; */
+            /* Set the width to 50% to share the row with the image */
+        }
+
+        #imga {
+       margin-top: 10px;
+
+     float: right;
+            width: 45%; /* Set the width to 50% to share the row with the About Me content */
+        }
+
+    #main {margin-left: 120px;
+     }
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <!-- <img src="images/me.jpeg" style="width:100%"> -->
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Rajasree P V.</h1>
+    <p>App/Web Developer.</p>
+    <!-- About Section9921108 -->
+
+
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey">About Me</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p id="aboutme">Highly motivated and aspiring App/Web developer seeking opportunities to leverage my skills and knowledge in a professional setting. Currently pursuing a Master's in Computer Application (MCA) at AIT Bangalore, with a focus on gaining practical experience and contributing to innovative projects.
+      </p>
+    <img src="images/me7.jpeg" alt="boy" class="w3-image" width="700" height="500" id="imga">
+  </header>
+
+  <!-- About Section9921108 -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+
+    
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">App Development(Flutter/React-Native)</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <br/>
+    <p class="w3-wide">Web Development </p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+   </div> 
+
+  <br/>
+   
+<br/><br/><br/>
+<a href="https://drive.google.com/file/d/12KwECCggutw4z13sQd0h_Pc7_mPu_ZpZ/view?usp=share_link" download>
+  <button class="w3-button w3-light-grey w3-padding-large w3-section">
+    <i class="fa fa-download"></i> Download Resume
+  </button>
+</a>
+
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Projects  [ Flutter-Firebase ]</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Mess Management System</li>
+          <li class="w3-padding-16">An efficient system for managing mess operations</li>
+          <li class="w3-padding-16">User Registration and Profile Management</li>
+          <li class="w3-padding-16">Meal Subscription and <br/>Expiry Tracking</li>
+          <li class="w3-padding-16">Automated Remaining Days Calculation</li>
+          <li class="w3-padding-16">Pause and Resume Subscription Feature</li>
+
+ 
+         
+          <li class="w3-light-grey w3-padding-24">
+            <a href="https://github.com/Rajasreepv/Shop-ing" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">GitHub Link</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Work-Flow Management(web/App)</li>
+          <li class="w3-padding-16">A robust platform for efficient workflow management</li>
+          <li class="w3-padding-16">User Authentication & Role-Based Access Control</li>
+          <li class="w3-padding-16">Intuitive Progress Tracking</li>
+          <li class="w3-padding-16">Documents & photos  Sharing </li>
+          <li class="w3-padding-16">Real-time Notifications and daily task-updates</li>
+
+          <!-- <li class="w3-padding-16">Technologies: Flutter, Firebase</li> -->
+         
+          <li class="w3-light-grey w3-padding-24">
+            <a href="https://github.com/Rajasreepv/Shop-ing" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">GitHub Link</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">E-commerce <br/>App</li>
+          <li class="w3-padding-16">A fully-functional e-commerce platform</li>
+          <li class="w3-padding-16">User Authentication & Profile Management</li>
+          <li class="w3-padding-16">Browseable catalog of Dresses with detailed Description and Images</li>
+          <li class="w3-padding-16">Secure Payment gateway Integration (Razorpay)</li>
+          <li class="w3-padding-16">Order Tracking and Delevery Management</li>
+          
+         
+          <li class="w3-light-grey w3-padding-24">
+            <a href="https://github.com/Rajasreepv/Shop-ing" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">GitHub Link</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    
+    
+    <!-- End Grid/Pricing tables -->
+    </div>
+  
+    <h3 class="w3-padding-16 w3-text-light-grey">Mini Projects </h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32"> Weather Detection</li>
+          <li class="w3-padding-16">An website to detect weather conditions</li>
+          <li class="w3-padding-16">Utilizes external <br/>weather APIs</li>
+          <li class="w3-padding-16">Language: Python</li>
+
+         
+
+ 
+         
+          <li class="w3-light-grey w3-padding-24">
+            <a href="https://python-weather-web.onrender.com" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Website Link</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Reminder-App</li>
+          <li class="w3-padding-16">A simple  reminder application</li>
+          <li class="w3-padding-16">Plays a sound or chime when the reminder time is reached</li>
+          <li class="w3-padding-16">Helps organize daily activities efficiently in a span of 24 hour</li>
+
+          <li class="w3-padding-16">Language: Flutter</li>
+          <!-- <li class="w3-padding-16">Technologies: Flutter, Firebase</li> -->
+         
+          <li class="w3-light-grey w3-padding-24">
+            <a href="https://github.com/Rajasreepv/Reminderapp" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">GitHub Link</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">BMI Calculator </li>
+
+      <li class="w3-padding-16">Personalized results based on gender, height, weight, and age</li>
+      <li class="w3-padding-16">Helps in assessing and categorizing individual's body weight</li>
+          <li class="w3-padding-16">Language: Flutter</li>
+          
+         
+          <li class="w3-light-grey w3-padding-24">
+            <a href="https://github.com/Rajasreepv/BMI-calc" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">GitHub Link</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <br/><br/>
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="images/faseeh.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Muhammed Faseeh</span>Developer at Login2 It solutions</p>
+    <p>The level of dedication to delivering high-quality web and app solutions is unmatched.</p><br>
+    <br/>
+    <img src="images/anupama.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Anupama Santhosh</span> Developer at Pay-Sack</p>
+    <p>Highly Hardworking.</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Projects Showcase</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="images/weather.png" style="width:100%">
+        <br/>
+        <img src="images/login.jpeg" style="width:100%">
+        <br/>
+        <img src="images/dash.jpeg" style="width:100%">
+        <br/>
+        <img src="images/not.png" style="width:100%">
+        <br/>
+        <img src="images/chck.png" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="images/ecom.png" style="width:100%">
+        <br/>
+        <img src="images/web.png" style="width:100%">
+        <br/>
+        <img src="images/bmi.png" style="width:100%">
+        <br/>
+        <img src="images/des.png" style="width:100%">
+        <br/>
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <p>Let's get in touch. Send me a mail :</p>
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Soladevanahalli,Bangalore</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 7592833494</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: rajasreepv02@gmail.com</p>
+    </div>
+  <!-- </div> -->
+  
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+
+  <a href="https://www.instagram.com/_.rjzre._?igsh=MWgzdmtzcWtmdnIycA%3D%3D&utm_source=qr" target="_blank" class="w3-hover-opacity">
+    <i class="fa fa-instagram"></i>
+  </a>
+  
+  <!-- LinkedIn icon with link -->
+  <a href="https://www.linkedin.com/in/rajasree-pv-96a137294/" target="_blank" class="w3-hover-opacity">
+    <i class="fa fa-linkedin"></i>
+  </a>
+ <p class="w3-small">copyright@rjzre</p>
+
+ <!-- End footer -->
+</footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
